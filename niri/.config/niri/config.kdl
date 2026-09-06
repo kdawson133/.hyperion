@@ -2,7 +2,9 @@
 // "/-" comments out the following node.
 // Check the wiki for a full description of the configuration:
 // https://niri-wm.github.io/niri/Configuration:-Introduction
-
+environment {
+    ELECTRON_OZONE_PLATFORM_HINT "auto"
+}
 // Input device configuration.
 // Find the full list of options on the wiki:
 // https://niri-wm.github.io/niri/Configuration:-Input
@@ -269,7 +271,7 @@ layout {
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "waybar"
-spawn-sh-at-startup "swabg -m fill -i ~/Pictures/Backgrounds/storm-trooper.png"
+spawn-sh-at-startup "swaybg -m fill -i ~/Pictures/Backgrounds/storm-trooper.png"
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
 
