@@ -4,8 +4,8 @@
 [[ $- != *i* ]] && return
 
 # If running in tty execute bash
-if [ '$XDG_SESSION_TYPE' = 'tty' ]; then
-  exec bash
+if [[ "$(tty)" == /dev/tty* ]]; then
+  exec bash 
 fi
 
 # NOTE: SOURCE PLUGINS SETUP AND INSTALL
