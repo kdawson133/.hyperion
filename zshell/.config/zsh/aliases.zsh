@@ -2,15 +2,15 @@
 
 # Listing using LS
 alias ls='ls --color=auto'
-alias ll='ls -lah --color=auto'
-alias ld='ls -d */'
-alias l.='ls -a --color=auto'
+# alias ll='ls -lah --color=auto'
+# alias ld='ls -d */'
+# alias l.='ls -a --color=auto'
 
 # Lising using EZA
 # alias ls='eza --group-directories-first --icons=auto --color=auto'
-# alias ll='eza -la --icons=auto'
-# alias ld='eza -D --icons=auto'
-# alias l.='eza -a --icons=auto' 
+alias ll='eza -la --icons=auto'
+alias ld='eza -D --icons=auto'
+alias l.='eza -a --icons=auto' 
 
 # Tree
 alias tree='tree -a'
