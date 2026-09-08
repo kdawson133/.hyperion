@@ -58,6 +58,7 @@ alias upupup='cd ../../..'
 alias z='cd'
 alias vim='nvim'
 alias vimf='nvim $(fzf)'
+alias svim='sudo nvim'
 alias cdf='z $(fzf)'
 alias mkdir='mkdir -p'
 
