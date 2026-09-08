@@ -4,9 +4,7 @@
 // https://niri-wm.github.io/niri/Configuration:-Introduction
 environment {
     ELECTRON_OZONE_PLATFORM_HINT "auto"
-    QT_QPA_PLATFORMTHEME "Adwaita-dark"
-    QT_QPA_PLATFORMTHEME_QT6 "Adwaita-dark"
-    QT_STYLE_OVERRIDE "Adwaita-dark"
+    QT_QPA_PLATFORMTHEME "qt6ct"
 }
 // Input device configuration.
 // Find the full list of options on the wiki:
